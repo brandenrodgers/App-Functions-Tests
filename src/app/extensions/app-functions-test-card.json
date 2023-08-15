@@ -1,0 +1,12 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Functions Test Card",
+    "uid": "functions_test_card",
+    "location": "crm.record.tab",
+    "module": {
+      "file": "FunctionsTestCard.jsx"
+    },
+    "objectTypes": [{ "name": "contacts" }]
+  }
+}

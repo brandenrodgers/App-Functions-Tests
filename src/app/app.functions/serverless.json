@@ -1,0 +1,14 @@
+{
+  "runtime": "nodejs16.x",
+  "version": "1.0",
+  "appFunctions": {
+    "syncFunction": {
+      "file": "sync-functions-test.js",
+      "secrets": []
+    },
+    "asyncFunction": {
+      "file": "async-functions-test.js",
+      "secrets": []
+    }
+  }
+}

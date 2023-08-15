@@ -1,0 +1,11 @@
+{
+  "name": "app-functions-test-project",
+  "version": "0.1.0",
+  "description": "Project to test out different types of ap functions",
+  "scripts": {
+    "postinstall": "cd ./src/app/extensions/ && npm install; cd ../app.functions && npm install",
+    "build": "npm run build --prefix ./src/app/extensions/"
+  },
+  "author": "HubSpot",
+  "license": "MIT"
+}
