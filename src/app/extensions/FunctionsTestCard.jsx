@@ -63,6 +63,14 @@ const FunctionsTestCard = ({ runServerless, sendAlert }) => {
         >
           Do nothing
         </Button>
+        <Button
+          type="submit"
+          onClick={() =>
+            executeFunction(functionName, "return-without-callback")
+          }
+        >
+          Return without callback
+        </Button>
       </Flex>
     );
   };

@@ -45,6 +45,8 @@ exports.main = (context = {}, sendResponse) => {
       sendResponse(undefined);
     case "do-nothing":
       break;
+    case "return-without-callback":
+      return "Returning without using callback";
     default:
       handleResponse(action, "Unknown action type");
   }
